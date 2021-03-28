@@ -1,0 +1,7 @@
+--Output from When transactions are requested, they are rendered--
+--Output from when account is not chosen, valid error message is displayed--
+--Output from Cannot transfer amount between same accounts--
+--Output from Cannot transfer amount less than 0[0]--
+--Output from Cannot transfer amount less than 0[1]--
+--Output from Handled when service throws exception--
+--Output from when succesfully transfered, amount is deducted and credited to relevant accounts--

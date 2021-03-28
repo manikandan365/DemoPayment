@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-5BC59G6" id="0" name="PaymentControllerSpec" package="bankmanagement" skipped="0" tests="7" time="10.808" timestamp="2021-03-28T14:40:01">
+      <properties />
+
+      <testcase classname="bankmanagement.PaymentControllerSpec" name="When transactions are requested, they are rendered" time="10.017" />
+
+      <testcase classname="bankmanagement.PaymentControllerSpec" name="when account is not chosen, valid error message is displayed" time="0.134" />
+
+      <testcase classname="bankmanagement.PaymentControllerSpec" name="Cannot transfer amount between same accounts" time="0.048" />
+
+      <testcase classname="bankmanagement.PaymentControllerSpec" name="Cannot transfer amount less than 0[0]" time="0.04" />
+
+      <testcase classname="bankmanagement.PaymentControllerSpec" name="Cannot transfer amount less than 0[1]" time="0.068" />
+
+      <testcase classname="bankmanagement.PaymentControllerSpec" name="Handled when service throws exception" time="0.204" />
+
+      <testcase classname="bankmanagement.PaymentControllerSpec" name="when succesfully transfered, amount is deducted and credited to relevant accounts" time="0.095" />
+
+      <system-out><![CDATA[--Output from When transactions are requested, they are rendered--
+--Output from when account is not chosen, valid error message is displayed--
+--Output from Cannot transfer amount between same accounts--
+--Output from Cannot transfer amount less than 0[0]--
+--Output from Cannot transfer amount less than 0[1]--
+--Output from Handled when service throws exception--
+--Output from when succesfully transfered, amount is deducted and credited to relevant accounts--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from When transactions are requested, they are rendered--
+--Output from when account is not chosen, valid error message is displayed--
+--Output from Cannot transfer amount between same accounts--
+--Output from Cannot transfer amount less than 0[0]--
+--Output from Cannot transfer amount less than 0[1]--
+--Output from Handled when service throws exception--
+--Output from when succesfully transfered, amount is deducted and credited to relevant accounts--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-5BC59G6" id="1" name="PaymentServiceSpec" package="bankmanagement" skipped="0" tests="4" time="0.602" timestamp="2021-03-28T14:40:12">
+      <properties />
+
+      <testcase classname="bankmanagement.PaymentServiceSpec" name="When amount is deducted, balance should be more than requested amount[0]" time="0.342" />
+
+      <testcase classname="bankmanagement.PaymentServiceSpec" name="When amount is deducted, balance should be more than requested amount[1]" time="0.034" />
+
+      <testcase classname="bankmanagement.PaymentServiceSpec" name="When valid amount to be deducted, amount is reduced from account" time="0.154" />
+
+      <testcase classname="bankmanagement.PaymentServiceSpec" name="When valid amount to be transfered, amount is added to account" time="0.061" />
+
+      <system-out><![CDATA[--Output from When amount is deducted, balance should be more than requested amount[0]--
+--Output from When amount is deducted, balance should be more than requested amount[1]--
+--Output from When valid amount to be deducted, amount is reduced from account--
+--Output from When valid amount to be transfered, amount is added to account--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from When amount is deducted, balance should be more than requested amount[0]--
+--Output from When amount is deducted, balance should be more than requested amount[1]--
+--Output from When valid amount to be deducted, amount is reduced from account--
+--Output from When valid amount to be transfered, amount is added to account--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

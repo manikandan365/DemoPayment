@@ -1,0 +1,4 @@
+--Output from When amount is deducted, balance should be more than requested amount[0]--
+--Output from When amount is deducted, balance should be more than requested amount[1]--
+--Output from When valid amount to be deducted, amount is reduced from account--
+--Output from When valid amount to be transfered, amount is added to account--

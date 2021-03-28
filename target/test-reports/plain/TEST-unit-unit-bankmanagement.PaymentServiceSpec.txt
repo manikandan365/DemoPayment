@@ -1,0 +1,19 @@
+Testsuite: bankmanagement.PaymentServiceSpec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.602 sec
+------------- Standard Output ---------------
+--Output from When amount is deducted, balance should be more than requested amount[0]--
+--Output from When amount is deducted, balance should be more than requested amount[1]--
+--Output from When valid amount to be deducted, amount is reduced from account--
+--Output from When valid amount to be transfered, amount is added to account--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from When amount is deducted, balance should be more than requested amount[0]--
+--Output from When amount is deducted, balance should be more than requested amount[1]--
+--Output from When valid amount to be deducted, amount is reduced from account--
+--Output from When valid amount to be transfered, amount is added to account--
+------------- ---------------- ---------------
+
+Testcase: When amount is deducted, balance should be more than requested amount[0] took 0.342 sec
+Testcase: When amount is deducted, balance should be more than requested amount[1] took 0.034 sec
+Testcase: When valid amount to be deducted, amount is reduced from account took 0.154 sec
+Testcase: When valid amount to be transfered, amount is added to account took 0.061 sec

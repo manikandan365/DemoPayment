@@ -1,0 +1,28 @@
+Testsuite: bankmanagement.PaymentControllerSpec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.808 sec
+------------- Standard Output ---------------
+--Output from When transactions are requested, they are rendered--
+--Output from when account is not chosen, valid error message is displayed--
+--Output from Cannot transfer amount between same accounts--
+--Output from Cannot transfer amount less than 0[0]--
+--Output from Cannot transfer amount less than 0[1]--
+--Output from Handled when service throws exception--
+--Output from when succesfully transfered, amount is deducted and credited to relevant accounts--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from When transactions are requested, they are rendered--
+--Output from when account is not chosen, valid error message is displayed--
+--Output from Cannot transfer amount between same accounts--
+--Output from Cannot transfer amount less than 0[0]--
+--Output from Cannot transfer amount less than 0[1]--
+--Output from Handled when service throws exception--
+--Output from when succesfully transfered, amount is deducted and credited to relevant accounts--
+------------- ---------------- ---------------
+
+Testcase: When transactions are requested, they are rendered took 10.017 sec
+Testcase: when account is not chosen, valid error message is displayed took 0.134 sec
+Testcase: Cannot transfer amount between same accounts took 0.048 sec
+Testcase: Cannot transfer amount less than 0[0] took 0.04 sec
+Testcase: Cannot transfer amount less than 0[1] took 0.068 sec
+Testcase: Handled when service throws exception took 0.204 sec
+Testcase: when succesfully transfered, amount is deducted and credited to relevant accounts took 0.095 sec

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-5BC59G6" name="bankmanagement.PaymentServiceSpec" skipped="0" tests="4" time="0.602" timestamp="2021-03-28T14:40:12">
+  <properties />
+  <testcase classname="bankmanagement.PaymentServiceSpec" name="When amount is deducted, balance should be more than requested amount[0]" time="0.342" />
+  <testcase classname="bankmanagement.PaymentServiceSpec" name="When amount is deducted, balance should be more than requested amount[1]" time="0.034" />
+  <testcase classname="bankmanagement.PaymentServiceSpec" name="When valid amount to be deducted, amount is reduced from account" time="0.154" />
+  <testcase classname="bankmanagement.PaymentServiceSpec" name="When valid amount to be transfered, amount is added to account" time="0.061" />
+  <system-out><![CDATA[--Output from When amount is deducted, balance should be more than requested amount[0]--
+--Output from When amount is deducted, balance should be more than requested amount[1]--
+--Output from When valid amount to be deducted, amount is reduced from account--
+--Output from When valid amount to be transfered, amount is added to account--
+]]></system-out>
+  <system-err><![CDATA[--Output from When amount is deducted, balance should be more than requested amount[0]--
+--Output from When amount is deducted, balance should be more than requested amount[1]--
+--Output from When valid amount to be deducted, amount is reduced from account--
+--Output from When valid amount to be transfered, amount is added to account--
+]]></system-err>
+</testsuite>
